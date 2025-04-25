@@ -17,7 +17,7 @@ form.addEventListener('submit', function(e) {
     const containerMsgValidacao = document.querySelector('.validacao');
     const containerMsgOk = document.querySelector('.ok')
     const msgNumValido = 'Certo! B > A.';
-    const msgNumInvalido = 'O número precisa ser menor!';
+    const msgNumInvalido = 'O número A precisa ser menor que o número B!';
     
     numeroEValido = validaNumero(numA, numB);
     if (numeroEValido) {
